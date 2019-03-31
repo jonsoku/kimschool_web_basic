@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>이종석</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div class="header">
+                <h2>회원가입페이지</h2>
+                <!--
+                <ul>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">MENU</a></li>
+                </ul>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="container">
+            <div class="content">
+                <form action="test.html">
+                    <div class="user-form uId">
+                        <label for="uId">ID</label> 
+                        <input type="text" id="uId" name="uId" required/>
+                    </div>
+                    <div class="user-form uPw">
+                        <label for="uPw">PW</label>
+                        <input type="password" id="uPw" required/>
+                    </div>
+                    <div class="user-form uName">
+                        <label for="uName">NAME</label>
+                        <input type="text" id="uName" required/>
+                    </div>
+
+                    <div class="user-form uPhone">
+                        핸드폰번호
+                        <select>
+                            <option selected>통신사를 선택해주세요.</option>
+                            <option>skt</option>
+                            <option>lg</option>
+                            <option>kt</option>
+                            <option>linemobile</option>
+                        </select>
+                        <select>
+                            <option selected>010</option>
+                            <option>018</option>
+                            <option>011</option>
+                            <option>019</option>
+                        </select>
+                        - <input type="text"  required/> - <input type="text"  required/>
+                    </div>
+
+                    <div class="user-form uCerti">
+                        인증방법
+                        <label for="uCerti1">아이핀 인증</label>
+                        <input type="radio" name="uCerti" id="uCerti1">  
+                        <label for="uCerti2">휴대폰 인증</label>
+                        <input type="radio" name="uCerti" id="uCerti2"> 
+                    </div>
+
+                    <div class="user-form uHobboy">
+                        취미    
+                        <label for="uHobby1">프로그래밍</label>                                   
+                        <input type="checkbox" id="uHobby1" checked/> 
+                        <label for="uHobby2">피아노</label>
+                        <input type="checkbox" id="uHobby2" />
+                        <label for="uHobby3">게임</label>
+                        <input type="checkbox" id="uHobby3" />
+                    </div> 
+                    
+                    <div class="user-form uButton">
+                        <input type="submit" value="회원가입" />
+                        <input type="reset" value="reset" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="footer">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
