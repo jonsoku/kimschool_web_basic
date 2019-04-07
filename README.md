@@ -11,18 +11,19 @@
     submit
     reset
 
+# 미디어쿼리
 
-@media (max-width: 1280px) {
-}
-@media (max-width: 1024px) {
-}
-@media (max-width: 960px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 600px) {
-}
-@media (max-width: 480px) {
-}
-@media (max-width: 320px) {
-}
+    @media (max-width: 1280px) {
+    }
+    @media (max-width: 1024px) {
+    }
+    @media (max-width: 960px) {
+    }
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 600px) {
+    }
+    @media (max-width: 480px) {
+    }
+    @media (max-width: 320px) {
+    }
